@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(to right, red, blue);
+}
+
+h1{
+    position: relative;
+    left: 550px;
+    font-size: 80px;
+    color: red;
+    width: 374px;
+}
+.ttt{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    font-size: 40px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    left: 400px;
+}
+
+.rock{
+    background-color: gray;
+}
+
+.scissors{
+    background-color: orange;
+}
+
+.paper{
+    background-color: white;
+}
+
+.result{
+    font-size: 57px;
+    height: 69px;
+    width: 693px;
+    color: black;
+    position: relative;
+    top: 57px;
+    left: 402px;
+    border: 3px solid black;
+}
+
+.computerchoice{
+    font-size: 57px;
+    height: 69px;
+    width: 693px;
+    color: black;
+    position: relative;
+    top: 57px;
+    left: 402px;
+    border: 3px solid black;
+}
+
+.userchoice{
+    font-size: 57px;
+    height: 69px;
+    width: 693px;
+    color: black;
+    position: relative;
+    top: 57px;
+    left: 402px;
+    border: 3px solid black;
+}
+
+.box{
+    margin: 10px;
+}
+
+.count{
+    height: 80px;
+    width: 225px;
+    border: 2px solid black;
+    font-size: 40px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    left: 534px;
+    top: 55px;
+}
