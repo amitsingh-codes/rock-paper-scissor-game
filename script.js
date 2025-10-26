@@ -31,32 +31,32 @@ function userselection(){
     rock.addEventListener("click",function(){
         let c = "rock"
         RPS()
-        computerchoice.innerHTML = `computer choice : ${b}`
-        userchoice.innerHTML = `user choice : ${c} `
+        computerchoice.innerHTML = `<h2>${b}</h2>`
+        userchoice.innerHTML = `<h2>${c}</h2> `
         start(c,b)
-        usercounter.innerHTML = `user:${usercount}`
-        compcounter.innerHTML = `Computer:${compcount}`
+        usercounter.innerHTML = `<h3>user:${usercount}</h3>`
+        compcounter.innerHTML = `<h3>Computer:${compcount}</h3>`
         return c
     })
     scissor.addEventListener("click",function(){
         let c = "scissor"
         RPS()
-        computerchoice.innerHTML = `computer choice : ${b}`
-        userchoice.innerHTML = `user choice : ${c} `
+        computerchoice.innerHTML = `<h2>${b}</h2>`
+        userchoice.innerHTML = `<h2>${c}</h2> `
         start(c,b)
-        usercounter.innerHTML = `user:${usercount}`
-        compcounter.innerHTML = `Computer:${compcount}`
+        usercounter.innerHTML = `<h3>user:${usercount}</h3>`
+        compcounter.innerHTML = `<h3>Computer:${compcount}</h3>`
         return c
 
     })
     paper.addEventListener("click",function(){
         let c = "paper"
         RPS()
-        computerchoice.innerHTML = `computer choice : ${b}`
-        userchoice.innerHTML = `user choice : ${c} `
+        computerchoice.innerHTML = `<h2>${b}</h2>`
+        userchoice.innerHTML = `<h2>${c}</h2>`
         start(c,b)
-        usercounter.innerHTML = `user:${usercount}`
-        compcounter.innerHTML = `Computer:${compcount}`
+        usercounter.innerHTML = `<h3>user:${usercount}</h3>`
+        compcounter.innerHTML = `<h3>Computer:${compcount}</h3>`
         return c
     })
 }
@@ -70,14 +70,14 @@ let compcount = 0
 
 function start(c,b){
     if (c == b){
-        result.innerHTML = "Both are equal run it again" 
+        result.innerHTML = "<h2>Equal</h2> " 
     }
     else if ((c == "scissor" && b == "rock") || (c == "rock" && b == "paper") || (c == "paper" && b == "scissor")){
-        result.innerHTML = "Computer have won the game"
+        result.innerHTML = "<h2>Computer</h2>"
         compcount = compcount + 1
     }
     else if((c == "rock" && b == "scissor") || (c == "paper" && b == "rock") || (c == "scissor" && b == "paper")){
-        result.innerHTML = "User have won the game"
+        result.innerHTML = "<h2>User</h2>"
         usercount = usercount + 1
     }
     else{

@@ -1,23 +1,23 @@
-body{
-    background: linear-gradient(to right, red, blue);
-}
-
 h1{
     position: relative;
-    left: 550px;
+    top: -50px;
+    left:429px;
     font-size: 80px;
-    color: red;
-    width: 374px;
+    color: black;
+    width: fit-content;
+    background-color: gray;
 }
 .ttt{
     height: 200px;
     width: 200px;
     border: 2px solid black;
     font-size: 40px;
-    margin: 10px;
+    margin-left: 49px;
     display: inline-block;
     position: relative;
-    left: 400px;
+    left: 507px;
+    top: -387px;
+    text-align: center;
 }
 
 .rock{
@@ -43,40 +43,76 @@ h1{
     border: 3px solid black;
 }
 
+.counter{
+    height: 10px;
+}
+
 .computerchoice{
     font-size: 57px;
-    height: 69px;
-    width: 693px;
+    height: 293px;
+    width: 293px;
     color: black;
     position: relative;
-    top: 57px;
-    left: 402px;
+    top: -50px;
+    left: 100px;
     border: 3px solid black;
 }
 
 .userchoice{
     font-size: 57px;
-    height: 69px;
-    width: 693px;
+    height: 293px;
+    width: 293px;
     color: black;
     position: relative;
-    top: 57px;
-    left: 402px;
+    top: -423px;
+    left: 1354px;
     border: 3px solid black;
 }
 
-.box{
-    margin: 10px;
-}
-
 .count{
-    height: 80px;
-    width: 225px;
+    height: 200px;
+    width: 258px;
     border: 2px solid black;
     font-size: 40px;
-    margin: 10px;
+    margin-left: 55px;
     display: inline-block;
     position: relative;
-    left: 534px;
-    top: 55px;
+    left: 523px;
+    top: -90px;
+}
+
+.Computer{
+    font-size: 57px;
+    position: relative;
+    left: 145px;
+    top: 28px;
+    width: fit-content;
+}
+
+h2{
+    margin-left: 40px;
+}
+
+.user{
+    font-size: 57px;
+    position: relative;
+    left: 1399px;
+    top: -340px;
+    width: fit-content;
+}
+
+.result{
+    height: 293px;
+    width: 448px;
+    position: relative;
+    top: -433px;
+    left: 710px;
+}
+
+.winner{
+    font-size: 57px;
+    position: relative;
+    left: 800px;
+    top: -438px;
+    width: fit-content;
 }
