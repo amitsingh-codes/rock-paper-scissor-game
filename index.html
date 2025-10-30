@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock paper scissors</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <main class="game">
     <h1>ROCK PAPER SCISSORS</h1>
-    <div class="counter">
-        <div class="usercounter count"></div>
-        <div class="compcounter count"></div>
-    </div>
-    <div class="Computer">Computer</div>
-    <div class="computerchoice box"></div>
-    <div class="user">USER</div>
-    <div class="userchoice box"></div>
-    <div class="winner">WINNER</div>
-    <div class="result"></div>
-    <div class="container">
-        <div class="paper ttt">PAPER</div>
-        <div class="scissors ttt">SCISSORS</div>
-        <div class="rock ttt">Rock</div>
-    </div>
-    <script src="script.js"></script>
-</body>
 
+    <section class="scoreboard">
+      <div class="score">
+        <h2>User</h2>
+        <p class="usercounter">User: 0</p>
+      </div>
+      <div class="score">
+        <h2>Computer</h2>
+        <p class="compcounter">Computer: 0</p>
+      </div>
+    </section>
+
+    <section class="choices">
+      <div class="choice userchoice">👤</div>
+      <div class="choice computerchoice">🤖</div>
+    </section>
+
+    <section class="result-section">
+      <h2>Winner</h2>
+      <div class="result">—</div>
+    </section>
+
+    <section class="buttons">
+      <button class="paper">📄 Paper</button>
+      <button class="scissors">✂️ Scissors</button>
+      <button class="rock">🪨 Rock</button>
+    </section>
+
+    <button class="reset">🔄 Reset Score</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
